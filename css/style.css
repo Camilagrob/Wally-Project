@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: #0e0e0e;
+  margin: 2.5rem;
+  padding: 2rem;
+  font-weight: bold;
+}
+.subtítulos {
+  color: #0e0e0e;
+  padding: 2rem;
+  margin: 2.5rem;
+  font-weight: bold;
+}
+h3 {
+  margin: 2.5rem;
+  color: #0e0e0e;
+}
+h4 {
+  padding: 1.5rem;
+}
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+p {
+  color: #0e0e0e;
+  line-height: 1.6;
+  margin: 20px auto;
+}
+nav {
+  background-color: #f9aa4b;
+  display: flex;
+  justify-content: space-between;
+}
+nav .iconoBillete {
+  height: 60px;
+  margin: auto;
+  padding: 5px;
+}
+.menu {
+  list-style-type: none;
+  text-align: right;
+  align-items: center;
+}
+.menu li {
+  display: inline-block;
+  font-weight: bold;
+}
+.menu li a {
+  color: #0e0e0e;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+}
+.menu li a:hover {
+  color: white;
+}
+.iconoBillete,
+ul {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.containerServicios {
+  display: flex;
+}
+.textoServicios {
+  color: #0a0b0d;
+  padding: 1rem;
+  margin: 20px auto;
+  border: solid;
+  border-radius: 8px;
+  border-color: #f9aa4b;
+  width: 600px;
+}
+.listaServiciosContainer {
+  height: 500px;
+  width: 90%;
+  padding: 0.5rem;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.itemComprar {
+  background-color: #f9aa4b;
+  border-radius: 8px;
+  margin: 0.5rem;
+  text-align: center;
+  padding: 20px;
+}
+.itemDepositar {
+  background-color: #f9aa4b;
+  border-radius: 8px;
+  margin: 0.5rem;
+  padding: 20px;
+  text-align: center;
+}
+.itemRetirar {
+  background-color: #f9aa4b;
+  border-radius: 8px;
+  margin: 0.5rem;
+  padding: 20px;
+  text-align: center;
+}
+.itemTrading {
+  background-color: #f9aa4b;
+  border-radius: 8px;
+  margin: 0.5rem;
+  padding: 20px;
+  text-align: center;
+}
+.listaServicios {
+  color: white;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin: 50px;
+  margin: 0.5rem;
+  font-size: 2rem;
+  list-style-type: none;
+}
+.botonWhatsappContainer {
+  position: relative;
+  height: 20vh;
+}
+.botonWhatsapp {
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+}
+.botonWhatsapp img {
+  width: 45px;
+}
+.tamañoImgEquipo {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+}
+.tamañoImgEquipo img {
+  width: 40rem;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+
+.footer {
+  background-color: orangered;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.logoFooter img {
+  width: 50px;
+}
+.redesSociales img {
+  width: 40px;
+}
+
+.containerHome {
+  display: grid;
+  width: 90vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 6px 6px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "fotoHome1 textoHome1"
+    "textoHome2 fotoHome2";
+}
+
+.fotoHome1 {
+  grid-area: fotoHome1;
+  margin: 20px auto;
+}
+.imgHome {
+  width: 500px;
+}
+
+.textoHome1 {
+  grid-area: textoHome1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.botonHome {
+  border: solid 1px #0e0e0e;
+  color: #0e0e0e;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.botonHome:hover {
+  color: #0a0b0d;
+  background-color: #f1841f;
+  border: solid 1px #f1841f;
+}
+
+.textoHome2 {
+  grid-area: textoHome2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.fotoHome2 {
+  grid-area: fotoHome2;
+  margin: 4rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.5fr 2fr 2fr 0.5fr;
+    gap: 6px 6px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "logo navBar"
+      "productos productos"
+      "servicios servicios"
+      "footer footer";
+  }
+
+  .containerHome {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 6px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "fotoHome1"
+      "textoHome1"
+      "fotoHome2"
+      "textoHome2";
+  }
+}
+.formu {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #f9aa4b;
+  border: solid #f1841f 1px;
+  border-radius: 8px;
+}
+.form-label {
+  color: black;
+}
+.acordeon {
+  width: 80vw;
+  margin: 20px auto;
+}
+.learnCollapse {
+  color: #0a0b0d;
+  border: solid 1px orange;
+  font-weight: bold;
+}
+
+.learnCollapse .colapsed {
+  background-color: #f9aa4b;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #f9aa4b;
+  box-shadow: none;
+  color: #0a0b0d;
+}
+.accordion-button:focus {
+  border-color: #f9aa4b;
+  box-shadow: none;
+}
+.cardHome1 {
+  width: 900px;
+}
+.titularServicios {
+  text-align: center;
+  font-weight: bold;
+  color: #1f1e1d;
+}
+.fotoCarrousel {
+  border-radius: 10px;
+}

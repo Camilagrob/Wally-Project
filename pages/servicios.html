@@ -20,38 +20,47 @@
   </head>
   <body>
     <header>
-      <nav class="menu">
-        <a href="/index.html">
-          <img
-            src="../img/iconBillete.png"
-            alt="Ícono de Billete"
-            class="iconoBillete"
-        /></a>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./servicios.html">Servicios</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./learn.html">Learn</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navBootstrap">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html"><img src="../img/iconBillete.png" alt="Icono Wally" class="iconoBillete"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./learn.html">Learn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
-      <h2 class="text-center subtítulos">Nuestros Servicios</h2>
-      <div class="containerServicios">
-        <p class="textoServicios">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est earum
-          natus iure, odit inventore placeat ad ratione. A perspiciatis natus
-          fugiat. Odio unde necessitatibus asperiores commodi ad, fugiat nihil
-          accusamus quasi repellendus enim quam non sed corrupti itaque eveniet
-          aliquam impedit eos minima, corporis quas quaerat inventore. Ducimus
-          ipsa, totam ex possimus odio repellat nihil labore commodi aliquam
-          eius magni consequatur ut velit facere, iure voluptas dolorem nam
-          minus, autem eaque! Sapiente, officiis voluptatum soluta ad adipisci
-          nobis tempore quia possimus rem voluptas ipsum numquam perferendis
-          veritatis laboriosam laborum similique odit fuga repudiandae minima
-          nihil a quas et hic quae.
-        </p>
+      <div class="card mb-3 cardServicios1" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../img/imgServicios.jpg" class="img-fluid rounded-start imgCardServicios" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title tituloCardServicios">Dominá tus finanzas personales</h5>
+              <p class="card-text">Aprendé a gestionar y aumentar tu patrimonio en un mundo digital, controlando cada aspecto de tus inversiones.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="listaServiciosContainer">
         <ul class="listaServicios">
@@ -63,16 +72,19 @@
       </div>
       <!--GRILLAS BOOTSTRAP-->
       <section>
-       <div class="row">
+       <div class="row container text-center"> 
         <div class="col-lg-4 col-sm-6 col-xs-12">
+          <img src="../img/confianzaIcon.png" class="iconServicios" alt="Icono de Confianza">
           <h2 class="titularServicios">Confianza</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero minima blanditiis magni inventore, porro aspernatur quia temporibus aperiam deserunt optio.</p>
         </div>
         <div class="col-lg-4 col-sm-6 col-xs-12">
+          <img src="../img/seguridadIcon.png" class="iconServicios" alt="Icono de Seguridad">
           <h2 class="titularServicios">Seguridad</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero minima blanditiis magni inventore, porro aspernatur quia temporibus aperiam deserunt optio.</p>
         </div>
         <div class="col-lg-4 col-sm-12 col-xs-12">
+          <img src="../img/innovacionIcon.png" class="iconServicios" alt="Icono Innovación">
           <h2 class="titularServicios">Innovación</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero minima blanditiis magni inventore, porro aspernatur quia temporibus aperiam deserunt optio.</p>
         </div>

@@ -1,0 +1,18 @@
+.formu {
+  margin: 0 auto;
+  background-color: $orange;
+  border: solid $orange 1px;
+  border-radius: 8px;
+  .form-label {
+    color: $black;
+  }
+  .botonForm {
+    background-color: $orange;
+    border: $black solid 1px;
+    color: $black;
+    &:hover {
+      background-color: $black;
+      color: antiquewhite;
+    }
+  }
+}

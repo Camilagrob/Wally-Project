@@ -10,6 +10,9 @@
 
   .logoFooter img {
     width: 50px;
+    &:hover {
+      transform: scale(1.2, 1.2);
+    }
   }
   .redesSociales img {
     width: 40px;

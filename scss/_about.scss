@@ -1,0 +1,17 @@
+.contenedorTextoAbout {
+  width: 80vw;
+  background-color: #ffe17f;
+  border-radius: 8px;
+  margin: 2rem auto;
+  padding: 20px;
+
+  textoAbout {
+    text-align: center;
+    color: $black;
+    line-height: 1.6;
+    margin: 1.5rem auto;
+  }
+}
+.fotoCarrousel {
+  border-radius: 10px;
+}

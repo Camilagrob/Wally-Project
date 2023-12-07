@@ -1,0 +1,23 @@
+.acordeon {
+  width: 80vw;
+  margin: 20px auto;
+
+  .learnCollapse {
+    color: $black;
+    border: solid 1px orange;
+    font-weight: bold;
+    .colapsed {
+      background-color: #f9aa4b;
+    }
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #f9aa4b;
+    box-shadow: none;
+    color: #0a0b0d;
+  }
+  .accordion-button:focus {
+    border-color: #f9aa4b;
+    box-shadow: none;
+  }
+}

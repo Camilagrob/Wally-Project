@@ -67,6 +67,10 @@ main {
       margin: 0.5rem;
       font-size: 2rem;
       list-style-type: none;
+
+      .grad1 {
+        background: linear-gradient(to right, $orange, violet);
+      }
     }
     .containerGrillaServicios {
       width: 75vw;

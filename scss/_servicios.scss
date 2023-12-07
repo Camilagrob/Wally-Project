@@ -1,0 +1,77 @@
+main {
+  .cardServicios1 {
+    border: none;
+    margin: 5rem auto;
+
+    .tituloCardServicios {
+      font-weight: bold;
+      font-size: 2.5rem;
+    }
+  }
+  .iconServicios {
+    width: 50px;
+  }
+  .botonWhatsappContainer {
+    position: relative;
+    height: 20vh;
+    .botonWhatsapp {
+      position: absolute;
+      bottom: 30px;
+      right: 60px;
+    }
+    .botonWhatsapp img {
+      width: 45px;
+    }
+  }
+  .listaServiciosContainer {
+    height: 500px;
+    width: 75vw;
+    padding: 0.5rem;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .itemComprar {
+      background-color: #f9aa4b;
+      border-radius: 8px;
+      margin: 0.5rem;
+      text-align: center;
+      padding: 20px;
+    }
+    .itemDepositar {
+      background-color: #f9aa4b;
+      border-radius: 8px;
+      margin: 0.5rem;
+      padding: 20px;
+      text-align: center;
+    }
+    .itemRetirar {
+      background-color: #f9aa4b;
+      border-radius: 8px;
+      margin: 0.5rem;
+      padding: 20px;
+      text-align: center;
+    }
+    .itemTrading {
+      background-color: #f9aa4b;
+      border-radius: 8px;
+      margin: 0.5rem;
+      padding: 20px;
+      text-align: center;
+    }
+    .listaServicios {
+      color: white;
+      font-size: 2rem;
+      line-height: 1.6;
+      margin: 50px;
+      margin: 0.5rem;
+      font-size: 2rem;
+      list-style-type: none;
+    }
+    .containerGrillaServicios {
+      width: 75vw;
+      padding: 1rem;
+      margin: 20px auto;
+    }
+  }
+}

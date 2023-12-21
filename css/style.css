@@ -142,10 +142,21 @@ main .containerHome .textoHome2 {
 main .cardServicios1 {
   border: none;
   margin: 5rem auto;
+  background-color: #ffdd6e;
 }
 main .cardServicios1 .tituloCardServicios {
   font-weight: bold;
   font-size: 2.5rem;
+}
+main .cardServicios1 .imgServicios1 {
+  width: 1500px;
+  margin-top: 3.5rem;
+  margin-left: 1rem;
+  border-radius: 8%;
+}
+main .cardServicios1 .subtituloServicios {
+  font-size: 1rem;
+  margin-left: 3.5rem;
 }
 main .iconServicios {
   width: 50px;
@@ -215,6 +226,9 @@ main .listaServiciosContainer .containerGrillaServicios {
   width: 75vw;
   padding: 1rem;
   margin: 20px auto;
+}
+main .titularServicios:hover {
+  color: #f9aa4b;
 }
 
 .contenedorTextoAbout {
